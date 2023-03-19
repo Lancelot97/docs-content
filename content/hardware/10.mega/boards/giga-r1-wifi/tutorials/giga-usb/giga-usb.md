@@ -87,7 +87,7 @@ Below is an example sketch that can be used to **list** files in a USB mass stor
 ```arduino
 #include <DigitalOut.h>
 #include <FATFileSystem.h>
-#include <USBHostMbed5.h>
+#include <Arduino_USBHostMbed5.h>
 
 USBHostMSD msd;
 mbed::FATFileSystem usb("usb");
@@ -170,7 +170,7 @@ void loop()
 Below is an example sketch that can be used to **read** files from a USB mass storage device.
 
 ```arduino
-#include <USBHostMbed5.h>
+#include <Arduino_USBHostMbed5.h>
 #include <DigitalOut.h>
 #include <FATFileSystem.h>
 
@@ -243,7 +243,7 @@ void loop() {
 Below is an example sketch that can be used to **write** files from a USB mass storage device.
 
 ```arduino
-#include <USBHostMbed5.h>
+#include <Arduino_USBHostMbed5.h>
 #include <DigitalOut.h>
 #include <FATFileSystem.h>
 
@@ -322,7 +322,7 @@ In the example below, we are reading logging the `A0` pin, where we are defining
 This is useful if you e.g. want to log a specific amount of samples for a specific amount of time.
 
 ```arduino
-#include <USBHostMbed5.h>
+#include <Arduino_USBHostMbed5.h>
 #include <DigitalOut.h>
 #include <FATFileSystem.h>
 
